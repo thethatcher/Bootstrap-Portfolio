@@ -1,0 +1,112 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+*{
+    box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url("images/straws.png");
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h2,
+h3{
+  color: #4aaaa5;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: lightgrey;
+  font-family: 'Georgia', 'Times, Times New Roman', serif;
+}
+
+#navbar{
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 0px 0px 4px 0px;
+}
+
+.navbar-header{
+  background-color: #4aaaa5;
+  font-family: 'Georgia', 'Times, Times New Roman', serif;
+  color: #ffffff;
+  font-size: 36px;
+  padding: 0px 10px 0px 10px;
+}
+
+#navigation{
+  margin-top: 10px;
+}
+#parallel{
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 0px 1px 0px 1px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: grey;
+  color: lightgrey;
+  border-style: solid;
+  border-color: #4aaaa5;
+  border-width: 4px 0px 0px 0px;
+}
+
+#profile{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+} 
+
+.box{
+  background-color: white;
+  margin: 25px;
+  border: 1px lightgrey solid;
+}
+
+#contactBox{
+  padding: 15px;
+}
+
+#contactMe{
+  position: relative;
+  bottom: 10px;
+}
+
+.portRibbon{
+  position: relative;
+  bottom: 58px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
+  width: 250px;
+}
+
+.inputBox{
+  width: 98%;
+  margin: 0px ;
+  padding: 4px;
+  color: lightgrey;
+}
+
+#msgBox{
+  width: 99%;
+  height: 150px;
+  margin: 0px;
+}
+
+#submitBtn{
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 20px 5px 20px;
+}
